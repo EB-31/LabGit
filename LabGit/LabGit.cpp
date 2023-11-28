@@ -1,7 +1,13 @@
 ﻿#include <iostream>
+#include "Header.h"
 
 using namespace std;
 int main()
 {
-  cout << "Hello World!\n";
+	int a;
+	cin >> a;
+	cout << "Hello World!\n";
+	cout << endl;
+
+	foo(a);
 }
