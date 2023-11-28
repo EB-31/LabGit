@@ -4,10 +4,11 @@
 using namespace std;
 int main()
 {
+	//комментарий
 	int a;
-	cin >> a;
-	cout << "Hello World!\n";
-	cout << endl;
+	std::cin >> a;
+	std::cout << "Hello World!\n";
+	std::cout << endl;
 
 	foo(a);
 }
