@@ -6,9 +6,9 @@ int main()
 {
 	//комментарий
 	int a;
-	std::cin >> a;
-	std::cout << "Hello World!\n";
-	std::cout << endl;
+	cin >> a;
+	cout << "Hello World!\n";
+	cout << endl;
 
 	foo(a);
 }
